@@ -1,0 +1,8 @@
+# MANIPULATING FILES WITH PYTHON
+from google.colab import files
+uploaded = files.upload()
+
+file = open("PYTHON_TEST_DOCUMENT.txt","r")
+file.read(0)
+for i in file:
+  print(i, end="")
